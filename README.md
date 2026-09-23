@@ -287,6 +287,6 @@ A ideia geral de usar RAG para conversar com um documento institucional foi insp
 
 ## 👤 Autor
 
-**<Seu nome>** — [LinkedIn](https://www.linkedin.com/in/<seu-perfil>) · [GitHub](https://github.com/<seu-usuario>)
+**<Livian Cristina Carvalho>** 
 
 Projeto desenvolvido para a trilha ONE (Oracle Next Education) — AI Tech Builder, Alura/Oracle.
