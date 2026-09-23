@@ -156,33 +156,27 @@ editalclaro/
 ### Pré-requisitos
 
 - Python 3.10 ou superior instalado
-- Uma chave de API gratuita do Google Gemini ([obter aqui](https://aistudio.google.com/apikey))
-
+- Uma chave de API gratuita do Google Gemini 9AQ.Ab8RN6LhVR7PSztefI-PPq_j8Qo1r5EsDhiWzOQx1QyUiF80ug)
 ### Passo a passo
 
 ```bash
-# 1. Clone o repositório
 git clone https://github.com/<seu-usuario>/editalclaro.git
 cd editalclaro
 
-# 2. Crie e ative um ambiente virtual
 python -m venv .venv
 # Windows:
 .\.venv\Scripts\activate
 # Linux/Mac:
 source .venv/bin/activate
 
-# 3. Instale as dependências
 pip install -r requirements.txt
 
-# 4. Configure sua chave de API
 cp .env.example .env
-# edite o .env e preencha: GOOGLE_API_KEY=sua_chave_aqui
+# edite o .env e preencha:AQ.Ab8RN6LhVR7PSztefI-PPq_j8Qo1r5EsDhiWzOQx1QyUiF80ug
 
-# 5. Processe o edital (gera o índice vetorial)
+
 python src/ingestao.py data/editais/meu_edital.pdf
 
-# 6. Execute a aplicação
 python app.py
 ```
 
@@ -278,10 +272,6 @@ Em `avaliacao/perguntas.csv` ficam perguntas de teste com a página onde a respo
 - [ ] Lembretes automáticos de prazos
 
 ---
-
-## 🙏 Inspiração e créditos
-
-A ideia geral de usar RAG para conversar com um documento institucional foi inspirada no repositório `agente-rag-stanford`, de Thiago Ribeiro Silva. Este projeto trata de outro problema (editais e prazos) e tem domínio, funcionalidades e documentação próprios.
 
 ---
 
