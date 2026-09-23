@@ -1,0 +1,12 @@
+# Segredos
+.env
+
+# Ambiente e cache do Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Arquivos gerados pela aplicação
+data/index/
+data/exports/
